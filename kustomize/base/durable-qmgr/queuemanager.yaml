@@ -9,11 +9,11 @@ spec:
   queueManager:
     storage:
       queueManager:
-        class: ibmc-block-gold
+        class: ocs-storagecluster-ceph-rbd
         type: persistent-claim
       persistedData:
         enabled: true
-        class: ibmc-block-gold
+        class: ocs-storagecluster-ceph-rbd
       recoveryLogs:
         enabled: true
-        class: ibmc-block-gold
+        class: ocs-storagecluster-ceph-rbd
