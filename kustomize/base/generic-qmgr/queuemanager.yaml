@@ -11,7 +11,7 @@ spec:
 
     license: L-AMRD-XH6P3Q
 
-    use: NonProduction
+    use: Production
   queueManager:
     debug: false
     imagePullPolicy: IfNotPresent
